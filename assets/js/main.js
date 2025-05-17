@@ -50,7 +50,6 @@ jQuery(document).ready(function ($) {
             activeId = $sections.last().attr('id');
         }
 
-        console.log(activeId);
         // Atualiza o menu
         $links.removeClass('active');
         if (activeId) {

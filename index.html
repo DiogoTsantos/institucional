@@ -27,10 +27,9 @@
     <meta name="twitter:description" content="Soluções digitais sob medida com foco em performance, experiência e tecnologia." />
     <meta name="twitter:image" content="https://d10g0.dev/assets/img/people.webp" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="preload" href="assets/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
     <link rel="stylesheet" href="assets/css/main.css" />
-    <script src="assets/js/jquery-3.7.1.min.js"></script>
-    <script src="assets/js/main.js"></script>
   </head>
   <body>
     <nav id="navigation">
@@ -53,29 +52,29 @@
           <p>Bacharel em Ciências da Computação pela Universidade Federal de Sergipe. Desenvolvedor Fullstack com mais de 10 anos de experiência em desenvolvimento WEB e Mobile, plugins e temas WordPress.</p>
           <a class="button" target="_blank" href="https://www.linkedin.com/in/diogo-teobaldo-2213a3264/">Saiba Mais</a>
         </div>
-        <img src="assets/img/people.webp" alt="D10G0" id="people" />
+        <img src="assets/img/people.webp" alt="D10G0" id="people" width="400" height="465"/>
       </section>
 
       <section class="services" id="services">
         <h2 class="whatido">O que eu faço?</h2>
         <div class="services-list">
           <div class="service-item">
-            <img src="assets/img/wordpress.webp" alt="WordPress" />
+            <img src="assets/img/wordpress.webp" alt="WordPress" width="73" height="70"/>
             <h3>WordPress</h3>
             <p>Desenvolvimento de temas e plugins para WordPress.</p>
           </div>
           <div class="service-item">
-            <img src="assets/img/html.webp" alt="HTML" />
+            <img src="assets/img/html.webp" alt="HTML" width="64" height="70"/>
             <h3>HTML</h3>
             <p>Criação de sites modernos e otimizados.</p>
           </div>
           <div class="service-item">
-            <img src="assets/img/woocommerce.webp" alt="Woocommerce" />
+            <img src="assets/img/woocommerce.webp" alt="Woocommerce" width="70" height="70" />
             <h3>e-Commerce</h3>
             <p>Desenvolvimento de lojas com WooCommerce.</p>
           </div>
           <div class="service-item">
-            <img src="assets/img/android.webp" alt="Android" />
+            <img src="assets/img/android.webp" alt="Android" width="60" height="70"/>
             <h3>Apps Android</h3>
             <p>Criação de apps nativos para Android.</p>
           </div>
@@ -86,7 +85,7 @@
         <h2 class="whatido">Aplicativos</h2>
         <div class="portfolio-list">
           <div class="portfolio-item">
-            <img src="assets/img/icon.webp" alt="Meu Bebê" />
+            <img src="assets/img/icon.webp" alt="Meu Bebê" width="130" height="130"/>
             <div class="portfolio-item-content">
               <h3>Meu Bebê</h3>
               <p>Cuidar de um bebê nunca foi tão fácil! Com o Meu Bebê, você tem as ferramentas para acompanhar o crescimento e desenvolvimento do seu filho de forma prática e organizada. Nosso app foi criado para ajudar mães, pais e cuidadores nas etapas da infância de sua criança, oferecendo recursos completos e intuitivos. Tem suporte as linguas de português, inglês e espanhol.</p>
@@ -100,15 +99,15 @@
         <h2 class="whatido">Contato</h2>
         <div class="contact-list">
           <div class="contact-item">
-            <img src="assets/img/linkedin.webp" alt="Linkedin" />
+            <img src="assets/img/linkedin.webp" alt="Linkedin" width="70" height="70"/>
             <a href="https://www.linkedin.com/in/diogo-teobaldo-2213a3264/" target="_blank">@Diogo Teobaldo</a>
           </div>
           <div class="contact-item">
-            <img src="assets/img/gmail.webp" alt="E-mail" />
+            <img src="assets/img/gmail.webp" alt="E-mail" width="70" height="70" />
             <a href="mailto:diogo.teobaldo@gmail.com">diogo.teobaldo@gmail.com</a>
           </div>
           <div class="contact-item">
-            <img src="assets/img/whatsapp.webp" alt="Whatsapp" />
+            <img src="assets/img/whatsapp.webp" alt="Whatsapp" width="70" height="70" />
             <a href="https://web.whatsapp.com/send?phone=5579998338196" target="_blank">(79) 99833-8196</a>
           </div>
         </div>
@@ -119,5 +118,7 @@
     <footer>
       <p>&copy; 2025 D10G0 Softwares. Todos os direitos reservados.</p>
     </footer>
+    <script src="assets/js/jquery-3.7.1.min.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
   </body>
 </html>
